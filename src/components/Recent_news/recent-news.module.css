@@ -1,0 +1,32 @@
+.recent_news {
+  width: 395px;
+}
+
+.title {
+  font-size: 32px;
+  width: fit-content;
+  border-bottom: 3px solid var(--color-border);
+  line-height: 0.7;
+}
+
+.deckBox {
+  padding: 35px 0;
+  border-bottom: 3px solid var(--color-border);
+}
+
+.deck,
+.name,
+.time {
+  font-size: 20px;
+}
+
+.name,
+.time {
+  color: var(--color-border);
+}
+
+.detailBox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px ;
+}

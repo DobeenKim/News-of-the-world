@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+
+:root {
+  --color-border: #575757;
+  --width-wrap: 1655px;
+}
+
+* {
+  margin: 0;        
+  padding: 0;       
+  box-sizing: border-box; 
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+body {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}

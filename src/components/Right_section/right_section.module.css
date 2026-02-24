@@ -1,0 +1,6 @@
+.right_section {
+  width: 395px;
+  border-top: 3px solid var(--color-border) ;
+  border-bottom:  3px solid var(--color-border);
+  padding: 24px 0;
+}

@@ -1,0 +1,7 @@
+.main_hero {
+  width: var(--width-wrap);
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}

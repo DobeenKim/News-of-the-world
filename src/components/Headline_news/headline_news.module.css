@@ -1,0 +1,21 @@
+.headline_news {
+  width: 820px;
+  padding: 24px;
+  border: 3px solid var(--color-border);
+}
+
+img {
+  width: 100%;
+}
+
+.img img {
+  width: 770px;
+}
+
+.title {
+  font-size: 48px;
+}
+
+.story {
+  font-size: 20px;
+}

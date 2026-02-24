@@ -1,0 +1,21 @@
+.news_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.news_card:nth-child(1) {
+  padding-bottom: 30px;
+}
+
+.news_card_box {
+  display: flex;
+  flex-direction: column;
+}
+
+.headline {
+  font-size: 24px;
+}
+
+.story {
+  font-size: 20px;
+}
