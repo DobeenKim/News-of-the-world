@@ -1,8 +1,8 @@
 import styles from './recent-news.module.css'
-import { dataList } from '../../Data/data.js'
+import { articles } from '../../Data/data.js'
 
 const Recent_news = () => {
-    const recentNews = dataList.slice(0, 4);
+    const recentNews = articles.slice(0, 4);
 
     return (
         <div className={styles.recent_news}>

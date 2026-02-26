@@ -1,10 +1,10 @@
 import styles from './headline_news.module.css'
-import { dataList } from '../../Data/data.js'
+import { articles } from '../../Data/data.js'
 import { getImageURL } from '../../utils/function.js'
 
 
 const Headline_news = () => {
-    const news = dataList[4]
+    const news = articles[4]
 
     const shortStory = news.story.length > 100
     ? news.story.substring(0, 400) + "..."

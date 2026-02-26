@@ -1,0 +1,26 @@
+.international {
+}
+
+.title {
+  font-size: 48px;
+  border-bottom: 3px solid var(--color-border);
+  width: fit-content;
+  line-height: 0.7;
+}
+
+.wrap {
+  display: flex;
+  padding-top:57px ;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news_card {
+  width: 528px;
+}
+
+.news_card h2 {
+  font-size: 36px !important;
+  padding-top: 45px;
+
+}
