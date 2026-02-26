@@ -1,4 +1,4 @@
-.recent_news {
+/* .recent_news {
   width: 395px;
 }
 
@@ -29,4 +29,11 @@
   display: flex;
   justify-content: space-between;
   padding-top: 30px ;
-}
+} */
+
+/* .title {
+  font-size: 32px;
+  width: fit-content;
+  border-bottom: 3px solid var(--color-border);
+  line-height: 0.7;
+} */

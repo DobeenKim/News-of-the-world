@@ -1,0 +1,25 @@
+.recent_card {
+  width: 395px;
+}
+
+.wrap {
+  padding: 35px 0;
+  border-bottom: 3px solid var(--color-border);
+}
+
+.deck,
+.name,
+.time {
+  font-size: 20px;
+}
+
+.name,
+.time {
+  color: var(--color-border);
+}
+
+.detailBox {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px ;
+}

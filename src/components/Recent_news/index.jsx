@@ -1,23 +1,21 @@
-import styles from './recent-news.module.css'
-import { articles } from '../../Data/data.js'
+// import styles from './recent-news.module.css'
+// import { articles } from '../../Data/data.js'
+// import Recent_card  from '../Recent_card';
 
-const Recent_news = () => {
-    const recentNews = articles.slice(0, 4);
+// const Recent_news = () => {
 
-    return (
-        <div className={styles.recent_news}>
-            <h2 className={styles.title}>Recent News</h2>
-            {recentNews.map((news) => (
-                <div key={news.headline} className={styles.deckBox}>
-                    <h4 className={styles.deck}>{news.deck}</h4>
-                    <div className={styles.detailBox}>
-                        <h4 className={styles.name}>{news.name}</h4>
-                        <h4 className={styles.time}>{news.time}</h4>
-                    </div>
-                </div>
-            ))}
-    </div>
-    )
-}
 
-export default Recent_news
+//     return (
+//         <div className={styles.recent_news}>
+//             <h2 className={styles.title}>Recent News</h2>
+//             <div className={styles.wrap}>
+//                 <Recent_card recentNews={articles[1]}/>
+//                 <Recent_card recentNews={articles[2]}/>
+//                 <Recent_card recentNews={articles[3]}/>
+//                 <Recent_card recentNews={articles[4]}/>
+//             </div>
+//         </div>
+//     )
+// }
+
+// export default Recent_news
