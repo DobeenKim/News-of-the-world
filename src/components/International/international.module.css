@@ -1,4 +1,5 @@
 .international {
+  width: 100%;
 }
 
 .title {
@@ -21,6 +22,6 @@
 
 .news_card h2 {
   font-size: 36px !important;
-  padding-top: 45px;
-
+  /* padding-top: 45px; */
 }
+

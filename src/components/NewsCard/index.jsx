@@ -3,13 +3,13 @@ import { getImageURL } from '../../utils/function.js'
 
 const NewsCard = ({news, className}) => {
     const shortStory = news.story.length > 100
-    ? news.story.substring(0, 80) + "..."
+    ? news.story.substring(0, 100) + "..."
     : news.story;
 
     return (
         <div className={`${styles.news_card} ${className}`}>
-            <div className={styles.news_card_box}>
-                <img src={getImageURL(news.image)} alt={news.headline} />
+            <img src={getImageURL(news.image)} alt={news.headline} />
+            <div className={styles.newsCardWrap}>
                 <h2 className={styles.headline}>{news.headline}</h2>
                 <h4 className={styles.story}>{shortStory}</h4>
             </div>

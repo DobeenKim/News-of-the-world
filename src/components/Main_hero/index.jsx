@@ -3,6 +3,7 @@ import Recent_news from '../Recent_news'
 import Headline_news from '../Headline_news'
 import Right_section from '../Right_section'
 import International from '../International'
+import Sports from '../Sports'
 
 
 const Main_hero = () => {
@@ -16,8 +17,11 @@ const Main_hero = () => {
       <div className={styles.mid_section}>
         <International />
       </div>
+      <div className={styles.lower_section}>
+        <Sports />
+      </div>
       <div className={styles.bottom_section}>
-        
+
       </div>
     </div>
     
@@ -25,3 +29,4 @@ const Main_hero = () => {
 }
 
 export default Main_hero
+

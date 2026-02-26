@@ -1,0 +1,56 @@
+.sports {
+  width: 100%;
+}
+
+.title {
+  font-size: 48px;
+  border-bottom: 3px solid var(--color-border);
+  width: fit-content;
+  line-height: 0.7;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  padding-top:57px ;
+  justify-content: space-between;
+}
+
+.left_section  {
+  width: 820px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px !important;
+}
+
+.small_card h2 {
+  font-size: 48px;
+}
+
+.right_section {
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+} 
+
+.big_card {
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; 
+}
+
+.big_card h2 {
+  font-size: 32px;
+}
+
+.big_card img {
+  width: 285px; 
+}
+
+.big_card > div:last-child { 
+  width: 420px !important;
+  flex-shrink: 0;
+  margin-left: auto;
+}

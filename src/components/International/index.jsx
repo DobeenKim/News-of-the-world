@@ -2,7 +2,7 @@ import styles from './international.module.css'
 import NewsCard from '../NewsCard'
 import { articles } from '../../Data/data.js'
 
-const internationalArticles = articles.filter(article => article.category === 'international');
+// const internationalArticles = articles.filter(article => article.category === 'international');
 
 const international = () => {
     const worldArticles = articles.filter(article => article.category === 'world')

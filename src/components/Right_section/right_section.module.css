@@ -3,4 +3,7 @@
   border-top: 3px solid var(--color-border) ;
   border-bottom:  3px solid var(--color-border);
   padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }

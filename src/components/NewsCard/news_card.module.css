@@ -3,10 +3,6 @@
   flex-direction: column;
 }
 
-.news_card:nth-child(1) {
-  padding-bottom: 30px;
-}
-
 .news_card_box {
   display: flex;
   flex-direction: column;
@@ -18,4 +14,9 @@
 
 .story {
   font-size: 20px;
+  line-height: 1.1;
+}
+
+.newsCardWrap{
+  padding-top: 16px;
 }
