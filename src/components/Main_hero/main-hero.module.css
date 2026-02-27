@@ -7,30 +7,6 @@
   gap: 123px;
 }
 
-.top_section {
-  width: 100%;
-  border-bottom: 5px solid var(--color-border);
-  padding-bottom: 38px;
-}
-
-.topSectionWrap {
-  display: flex;
-  justify-content: space-between;
-}
-
-.head_line_news {
-  align-items: center;
-}
-
 .mid_section {
   width: 100%;
 }
-
-/* recent */
-.title {
-  font-size: 32px;
-  width: fit-content;
-  border-bottom: 3px solid var(--color-border);
-  line-height: 0.7;
-}
-

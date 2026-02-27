@@ -1,14 +1,12 @@
 import styles from './headline_news.module.css'
-// import { articles } from '../../Data/data.js'
 import { getImageURL } from '../../utils/function.js'
 
 
 const Headline_news = ({headLineNews}) => {
-    // const news = articles[4]
     if (!headLineNews) return null;
 
     const shortStory = headLineNews.story.length > 100
-    ? headLineNews.story.substring(0, 400) + "..."
+    ? headLineNews.story.substring(0, 450) + "..."
     : headLineNews.story;
 
     return (
@@ -20,7 +18,6 @@ const Headline_news = ({headLineNews}) => {
                 ) : (
                 <p className={styles.error}>no image</p>
                 )}
-
                 <h2 className={styles.title}>{headLineNews.headline}</h2>
                 <p className={styles.story}>{shortStory}</p>
             </div>

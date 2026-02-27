@@ -1,10 +1,10 @@
 import styles from './recent_card.module.css'
 
 
-const Recent_card = ({recentNews}) => {
+const Recent_card = ({recentNews, className}) => {
 if (!recentNews) return null;
     return (
-      <div className={styles.recent_card}>
+      <div className={`${styles.recent_card} ${className || ''}`}>
         <div className={styles.wrap}>
           <h4 className={styles.deck}>{recentNews.deck}</h4>
             <div className={styles.detailBox}>

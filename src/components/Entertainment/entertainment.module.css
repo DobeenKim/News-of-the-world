@@ -1,22 +1,6 @@
-.entertainment {
+.heroGrind {
   width: 100%;
-  margin: 0 auto;
-  margin-top: 50px;
-}
-.top_section {
-  width: 100%;
-  border-bottom: 5px solid var(--color-border);
   padding-bottom: 38px;
-}
-
-.topSectionWrap {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 57px;
-}
-
-.head_line_news {
-  align-items: center;
 }
 
 .title {
@@ -26,13 +10,25 @@
   line-height: 0.7;
 }
 
+.recentCardWrap {
+  line-height: 1.9;
+  width: 395px;
+}
+
+.heroGrindWrap {
+  display: flex ;
+  justify-content: space-between;
+  padding-top: 57px;
+}
+
+.cardWrap {
+  width: 395px;
+}
+
 .text {
   font-size: 32px;
   width: fit-content;
-  line-height: 0.7;
   border-bottom: 3px solid var(--color-border);
+  line-height: 0.7;
 }
 
-.wrap {
-  border-bottom: 0 !important;
-}

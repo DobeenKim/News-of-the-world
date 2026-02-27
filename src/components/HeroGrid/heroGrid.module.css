@@ -1,0 +1,26 @@
+.heroGrind {
+  width: 100%;
+  border-bottom: 5px solid var(--color-border);
+  padding-bottom: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 32px;
+  width: fit-content;
+  border-bottom: 3px solid var(--color-border);
+  line-height: 0.7;
+}
+
+.recentCardWrap {
+  line-height: 1.9;
+}
+
+.recentCard {
+  border-bottom: 3px solid var(--color-border);
+}
+
+.NewsCardWrap {
+  width: 395px;
+}
