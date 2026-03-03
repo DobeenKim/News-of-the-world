@@ -1,13 +1,12 @@
 import styles from './sports.module.css'
 import NewsCard from '../NewsCard'
-import { articles } from '../../Data/data.js'
 
+const Sports = ({ sportsData }) => {
 
-
-const Sports = () => {
-    const sportsArticles = articles.filter(article => article.category === 'sport')
-    const leftArticle = sportsArticles.slice(1,2)[0];
-    const rightArticle = sportsArticles.slice(3, 6);
+    const data = sportsData || [];
+    
+    const leftArticle = data[0];
+    const rightArticle = data.slice(1, 4);
 
     return (
         <div className={styles.sports}>

@@ -2,26 +2,25 @@ import styles from './entertainment.module.css'
 import NewsCard from '../NewsCard'
 import Recent_card from '../Recent_card'
 import Headline_news from '../Headline_news'
-import { articles } from '../../Data/data'
 
 
-const entArticles = articles.filter(article => article.category === 'entertainment')
+const Entertainment = ({entData}) => {
 
-const Entertainment = () => {
+    const data = entData || [];
+
     return (
         <div className={styles.heroGrind}>
             <h2 className={styles.title}>Entertainment</h2>
             <div className={styles.heroGrindWrap}>
                 <div className={styles.cardWrap}>
-                    <NewsCard news={entArticles[0]} />
-                    <NewsCard news={entArticles[3]} />
+                    {data[0] && <NewsCard news={data[0]} />}
+                    {data[1] && <NewsCard news={data[1]} />}
                 </div>
-                <Headline_news headLineNews={entArticles[4]}/>
+                {data[2] && <Headline_news headLineNews={data[2]}/>}
                 <div className={styles.recentCardWrap}>
                     <h2 className={styles.text}>MostPopular</h2>
-                    <Recent_card recentNews={entArticles[0]}/>
-                    <Recent_card recentNews={entArticles[1]}/>
-                    <Recent_card recentNews={entArticles[3]}/>
+                    {data[0] && <Recent_card recentNews={data[0]}/>}
+                    {data[1] && <Recent_card recentNews={data[1]}/>}
                 </div>
             </div>
         </div> 
